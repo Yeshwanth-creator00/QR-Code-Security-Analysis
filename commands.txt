@@ -1,1 +1,46 @@
+"
+QR CODE SECURITY ANALYSIS COMMANDS
+"
+
+1. Navigate to Downloads Folder
+
+
+cd ~/Downloads
+
+2. Scan QR Code using ZBar
+
+
+zbarimg qr.png
+
+3. Extract Hidden Data using Steghide
+
+
+steghide extract -sf image.jpg
+
+4. Scan Website using Nikto
+
+
+nikto -h http://example.com
+
+5. Run Jok3r Tool
+
+
+python3 jok3r.py
+
+6. (Optional) Create QR Code
+
+
+
+qrencode -o qr.png "http://example.com"
+
+
+WORKFLOW
+
+
+1. Input QR Image
+2. Scan using ZBar
+3. Extract hidden data using Steghide
+4. Analyze link using Nikto
+5. Perform advanced scan using Jok3r
+ 
 
